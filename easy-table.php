@@ -74,7 +74,7 @@ function __construct(){
 	add_action('contextual_help', 	 array(&$this,'easy_table_help'));
 	
 	include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
-	include_once( dirname(__FILE__) . '/inc/compatibility.php' ); /* since 1.5.2 */
+//	include_once( dirname(__FILE__) . '/inc/compatibility.php' ); /* since 1.5.2 */
 	
 	$conflict = false;
 	
